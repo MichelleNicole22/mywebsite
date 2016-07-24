@@ -1,0 +1,142 @@
+/* colors:Pomegranate rgb(192,57,43) #c0392b
+Alizarin rgb(231,76,60) #e74c3c
+Asbestos rgb(127,140,141) #7f8c8d
+Wetasphalt rgb(52,73,94) #34495e
+Clouds rgb(236,240,241) #ecf0f1
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600|Montserrat:400,700);
+
+/* Body */
+ 
+body {
+	font-family: "Raleway";
+	font-weight: 400;
+}
+
+.row {
+	margin: 0;
+}
+
+a:link {
+	color: #ecf0f1;
+}
+
+a:visited {
+	color: #34495e;
+}
+
+a:hover {
+	color: #c0392b;
+}
+
+a:active {
+	color: red;
+}
+
+/* Navigation */
+
+.navbar-fixed-top {
+	background-color: rgba(89, 89, 89, 0.5);
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+
+.navbar-header {
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-bottom: 1%;
+	padding-right: 0;
+}
+
+.navbar-brand {
+	border: 5px solid #fff;
+	height: auto;
+	font-size: 24px;
+	color: #fff;
+}
+
+.navbar-nav {
+	padding-right: 5%;
+	padding-top: 1%;
+}
+
+header .navbar-fixed-top .navbar-nav li a {
+	color: #fff;
+}
+
+header .navbar-fixed-top .navbar-nav li a:hover {
+	color: #fff;
+	background-color: transparent;
+}
+
+/* Home Page */
+
+.home {
+	background: url('../images/los-angeles.jpg') no-repeat center fixed;
+	background-size: cover;
+}
+
+.page-header {
+	padding-top: 10%;
+	border-bottom: none;
+}
+
+/* About Page */
+
+.about {
+	background: url('../images/desk.jpg') no-repeat center fixed;
+	background-size: cover;
+}
+
+#about-text {
+	padding-top: 10%;
+	color: black;
+	font-weight: 600;
+}
+
+#about-pic {
+	border: 5px solid white;
+	padding: 0;
+}
+
+/* Portfolio Page */
+
+.portfolio {
+	background: url('../images/palms.png') no-repeat center fixed;
+	background-size: cover;
+}
+
+img {
+	max-width: 100%;
+}
+
+#portfolio {
+	padding-top: 10%;
+}
+
+#resume {
+	font-size: 2em;
+}
+
+
+/* Contact Page */
+
+.contact {
+	background: url('../images/coffee.jpeg') no-repeat center fixed;
+	background-size: cover;
+}
+
+#contact-text {
+	padding-top: 15%;
+}
+
+/* Footer */
+
+footer {
+	background-color: rgba(89, 89, 89, 0.5);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
